@@ -16,6 +16,7 @@ export const AppBridgeLink = ({
   ...rest
 }: AppBridgeLinkProps & LinkAction) => {
   const app = useAppBridge();
+  // @ts-ignore
   const redirect = Redirect.create(app);
 
   return (

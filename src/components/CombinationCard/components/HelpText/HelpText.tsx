@@ -28,6 +28,7 @@ export function HelpText({
   const buttonWrapperRef = useRef<HTMLSpanElement>(null);
   const [i18n] = useI18n();
   const app = useAppBridge();
+  // @ts-ignore
   const myModal = Modal.create(app, {
     url: DISCOUNT_COMBINATION_MODAL_APP_BRIDGE_URL,
   });
