@@ -1,6 +1,6 @@
 {
-  "name": "@shopify/discount-app-components",
-  "description": "Shopify’s discounts component library",
+  "name": "@alpha-omega-agency/discount-app-components",
+  "description": "Shopify’s discounts component library modified by Alpha Omega Agency",
   "version": "2.1.2",
   "author": "Shopify <dev@shopify.com>",
   "repository": "https://github.com/Shopify/discount-app-components",
